@@ -1,0 +1,300 @@
+.edit2-container {
+  display: flex;
+  height: 100vh;
+  overflow-y: hidden;
+ 
+}
+
+/* Sidebar */
+.sidebar1 {
+position: relative;
+  width: 308px;
+  background: #FFDA61;
+  color: white;
+  padding: 10px;
+  bottom: 1.25rem;
+  right: 10%;
+  height: 58px;
+}
+.sidebar2 {
+position: relative;
+  width: 308px;
+  background: #FFDA61;
+  color: white;
+  padding: 10px;
+  bottom: 0.75rem;
+  right: 10%;
+  height: 40px;
+}
+.sidebar3 {
+position: relative;
+  width: 308px;
+  background: #FFDA61;
+  color: white;
+  padding: 10px;
+  bottom: 0.28rem;
+  right: 10%;
+  height: 425px;
+}
+.sidebar {
+  width: 50px;
+  background: #FFDA61;
+  color: white;
+  padding: 20px;
+}
+.sidebar .logo {
+  margin-bottom: 20px;
+}
+button {
+  font-family: Poppins;
+   background: none;
+    border: none;
+}
+.ed2head1{
+    
+    color: black;
+    position: relative;
+    font-size: 2rem;
+    left: 12%;
+    top: 1.2rem;
+    text-decoration: none;
+}
+.ed2head1:hover {
+
+  color: white;
+
+}
+.ed2head2{
+    
+    color: black;
+    position: relative;
+    font-size: 2rem;
+    left: 12%;
+    top: 2rem;
+    text-decoration: none;
+}
+.ed2head2:hover {
+
+  color: white;
+
+}
+.ed2head3:hover {
+  opacity: 1;
+}
+.ed2head3{
+   background: none;
+   border: none;
+    
+    color: black;
+    position: relative;
+    font-size: 1.10rem;
+    left: 11%;
+    opacity: 0.7;
+    top: 0.45rem;
+}
+.ed2head4{
+  position: relative;
+  font-size: 1.10rem;
+  color: black;
+  opacity: 0.7;
+  bottom: 1rem;
+    left: 13%;
+}
+.ed2head5{
+  position: relative;
+  font-size: 1.10rem;
+  color: black;
+  opacity: 0.7;
+  top: 3rem;
+    left: 13%;
+}
+.ed2head6{
+  position: relative;
+  font-size: 0.7rem;
+  color:#4E4747;
+    opacity: 0.8;
+  top: 12rem;
+    left: 13%;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  opacity: 0.7;
+}
+.fstyle {
+  font-family: Poppins;
+  opacity: 0.7;
+  position: relative;
+  background: none;
+   border: none;
+  border-bottom: 2px solid;
+  bottom: 1rem;
+  left: 13%;
+  font-size: 1rem;
+  width: 240px;
+}
+.fstyle1 {
+  font-family: Poppins;
+  
+  opacity: 0.7;
+  position: absolute;
+  background: none;
+   border: none;
+  border-bottom: 2px solid;
+  top: 1rem;
+  right: 50%;
+  font-size: 1rem;
+  width: 45.5px;
+}
+.fstyle2 {
+  font-family: Poppins;
+  
+  
+ 
+  opacity: 0.7;
+  position: absolute;
+  background: none;
+   border: none;
+  border-bottom: 2px solid;
+  top: 1.15rem;
+  left: 55%;
+  font-size: 1rem;
+  width: 175px;
+}
+.align-buttons {
+  position: relative;
+  top: 1.5rem;
+  
+  
+  
+}
+
+.edcursor{
+    
+    color: black;
+    position: relative;
+    font-size: 2rem;
+   left: 5%;
+    top: 1.5rem;
+    text-decoration: none;
+}
+.edcursor:hover {
+
+  color: white;
+
+}
+.eddraw{
+    
+    color: black;
+    position: relative;
+    font-size: 2rem;
+   left: 12%;
+    top: 2.5rem;
+    text-decoration: none;
+}
+.eddraw:hover {
+
+  color: white;
+
+}
+.ederase{
+    
+    color: black;
+    position: relative;
+    font-size: 2rem;
+   left: 12%;
+    top: 3.5rem;
+    text-decoration: none;
+}
+.ederase:hover {
+
+  color: white;
+
+}
+.edremove{
+    
+    color: black;
+    position: relative;
+    font-size: 2rem;
+   left: 12%;
+    top: 5rem;
+    text-decoration: none;
+}
+.edremove:hover {
+
+  color: white;
+
+}
+.text-grid {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto; /* 2 rows */
+  bottom: 1.25rem;
+  right: 21%;
+}
+
+.highlight-buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.highlight-buttons button {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 80px;
+  background: #f5f5f5;
+}
+.toolbar {
+  position: relative;
+  display: flex;
+  gap: 5px;
+  top: 3rem;
+  left: 13%;
+}
+
+.toolbar button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* main container */
+.file-upload-container {
+  height: 100vh;           /* full screen */
+  display: flex;
+  justify-content: center;
+}
+
+/* scrollable area */
+.pdf-scroll {
+  height: 90vh;            /* visible area */
+  overflow-y: auto;        /* enable vertical scroll */
+  overflow-x: hidden;
+  width: 100%;
+  padding: 1rem;
+}
+
+/* each page */
+.pdf-page {
+  position: relative;
+  width: 60%;
+  margin: 1rem auto;
+  border: 1px solid #ccc;
+}

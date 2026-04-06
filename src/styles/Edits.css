@@ -1,0 +1,310 @@
+.edgrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.edbox{
+     
+  background-color: white; 
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+
+  position: relative;
+  margin-top: 1rem;
+  height: 21rem;
+  width: 26rem;
+  left: 12%;
+
+}
+.edhead1 {
+    position: relative;
+    font-size: 1.2rem;
+    color:black;
+    right: 50%;
+}
+.edhead2 {
+    position: relative;
+    font-size: 1rem;
+    color:#4E4747;
+    opacity: 0.8;
+    bottom: 1rem;
+    right: 21%;
+}
+.edhead3 {
+    position: relative;
+    font-size: 1.2rem;
+    color:black;
+    right: 50%;
+}
+.edhead4 {
+    position: relative;
+    font-size: 1rem;
+    color:#4E4747;
+    opacity: 0.8;
+    bottom: 1rem;
+    right: 26.5%;
+}
+.upload-box2 {
+  position: relative;
+  margin-top: 20px;
+  border: 2px dashed grey;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  transition: 0.3s ease;
+  right: 3.75%;
+}
+
+/* Hover effect */
+.upload-label:hover {
+
+  opacity: 0.5;
+}
+.remove {
+  color:#4E4747;
+    opacity: 0.8;
+    font-family: Poppins;
+      background: none;
+  border: none;
+}
+.remove:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Button style */
+.upload-label {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+/* File preview */
+.file-preview {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+}
+.edbox1{
+     
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+  
+  position: relative;
+  margin-top: 1rem;
+  height: 21rem;
+  width: 29rem;
+  right: 12rem;
+ 
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.download-box {
+  position: relative;  
+  margin-top: 20px;
+  border: 2px dashed #007bff;;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  background-color: #fafafa;
+  right: 5%;
+}
+.download-box:hover {
+  border-color: #007bff;;
+  background-color: #f9f9f9;
+  opacity: 0.5;
+}
+
+/* Button style */
+.download-label {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4E4747;
+  opacity: 0.80;
+}
+/* Button */
+.convertbox2 {
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+  text-align: center;
+
+  position: relative;
+  margin-top: 6.5rem;
+  height: 5rem;
+  width: 4rem;
+  left: 22%;
+}
+.convertbox2 img {
+    position: relative;
+    width: 200%;
+    right: 55%;
+}
+.conhead5 {
+    position: relative;
+    font-size: 0.8rem;
+    color:#4E4747;
+    opacity: 0.8;
+    text-align: left;
+    white-space: nowrap;
+    right: 50%;
+    bottom: 0.5rem;
+}
+.conhead6 {
+    position: relative;
+    font-size: 1rem;
+    top: 1rem;
+  
+    text-align: left;
+    white-space: nowrap;
+     left: 10%;
+    
+}
+.file-preview1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.file-item p {
+  margin: 0;
+   white-space: nowrap;
+  text-overflow: ellipsis;
+   overflow: hidden;
+}
+.egap {
+    gap: 2px;
+}
+.edhead7 {
+    position: relative;
+    font-size: 0.7rem;
+    top: 0.1rem;
+   color:#4E4747;
+    opacity: 0.8;
+    text-align: left;
+    white-space: nowrap;
+     right: 4%;
+    
+}
+.edhead8 {
+    position: relative;
+    font-size: 0.7rem;
+    top: -0.5rem;
+   color:#4E4747;
+    opacity: 0.8;
+    text-align: left;
+    white-space: nowrap;
+     right: 4%;
+    
+}
+.edhead9 {
+    position: relative;
+    font-size: 1rem;
+    top: -0.5rem;
+   color:#FFDA61;
+   text-decoration: none;
+   
+    text-align: left;
+    white-space: nowrap;
+     right: 27.5%;
+}
+.edhead9:hover{
+opacity: 0.5;
+}
+.edhead10 {
+    position: relative;
+    font-size: 1rem;
+    top: -0.5rem;
+   color:#FFDA61;
+   text-decoration: none;
+   opacity: 0.8;
+    text-align: left;
+    white-space: nowrap;
+     right: 27.75%;
+}
+
+.edhead11 {
+  display: none;
+}
+@media (max-width: 768px) {
+
+    .edgrid {
+   grid-template-columns: 1fr;
+   padding: 0 1rem; 
+   
+
+}
+.edbox {
+  position: relative;
+  left: -2rem;
+  bottom: 3rem;
+}
+.upload-box2 {
+  width: 75%;
+}
+.mergebox2 {
+  position: relative;
+  top: -21rem;
+  
+ 
+}
+.mergebox2 img {
+display: none;
+}
+.mghead5 {
+  display: none;
+}
+.mghead6 {
+  border: 2px solid #FFDA61;
+  left: 10%;
+  border-radius: 12px;
+  width: 100%;
+  padding-left: 0.65rem;
+   
+}
+.button-container1 {
+  right: 11rem;
+
+}
+.mergebox1 {
+  left: -1.5rem;
+  bottom: 30rem;
+}
+.download1-box {
+   width: 68%;
+}
+.mghead3 {
+  left: -12.5rem
+}
+.edhead8 {
+  display: none;
+}
+.edhead11 {
+  display: block;
+  position: relative;
+    font-size: 0.7rem;
+    top: -0.5rem;
+   color:#4E4747;
+    opacity: 0.8;
+    text-align: left;
+    white-space: nowrap;
+     right: 3%;
+}
+}
