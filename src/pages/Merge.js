@@ -44,7 +44,7 @@ function Merge() {
       const formData = new FormData();
       files.forEach((file) => formData.append("files", file));
 
-      const res = await fetch("https://yellowcard-backend-1.onrender.com", {
+      const res = await fetch("https://yellowcard-backend-1.onrender.com/merge", {
         method: "POST",
         body: formData,
       });

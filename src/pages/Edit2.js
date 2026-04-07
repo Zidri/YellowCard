@@ -41,7 +41,7 @@ function Edit2() {
     const formData = new FormData();
     formData.append("file", pdfFile);
 
-    const res = await fetch("https://yellowcard-backend-1.onrender.com", {
+    const res = await fetch("https://yellowcard-backend-1.onrender.com/preview_pdf", {
       method: "POST",
       body: formData
     });

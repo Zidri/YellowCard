@@ -57,7 +57,7 @@ function ImageResizer() {
 
       formData.append("scale", scale);
 
-      const res = await fetch("https://yellowcard-backend-1.onrender.com", {
+      const res = await fetch("https://yellowcard-backend-1.onrender.com/resize", {
         method: "POST",
         body: formData,
       });
