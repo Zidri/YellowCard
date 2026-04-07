@@ -39,7 +39,7 @@ function Convert() {
       const formData = new FormData();
       formData.append("file", file);
 
-      const res = await fetch("https://yellowcard-backend-1.onrender.com", {
+      const res = await fetch("https://your-app.onrender.com/convert", {
         method: "POST",
         body: formData,
       });
