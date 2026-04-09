@@ -584,7 +584,7 @@ display: none;
   right: 34%
 }
 .resizerhead3 {
-  left: -6rem;
+  left: 1rem;
 }
 .resizerhead2 {
   right: 24%
@@ -593,6 +593,6 @@ display: none;
   right: 29%
 }
 .resizerhead11 {
-  left: -6rem
+  left: -5.5rem
 }
 }
