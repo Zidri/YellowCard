@@ -580,11 +580,21 @@ display: none;
     width: 50% !important;
   max-width: 50% !important;
 }
+.slider {
+   touch-action: none; 
+   width: 50% !important;
+  max-width: 50% !important;
+}
+.slider1 {
+   touch-action: none;
+   width: 50% !important;
+  max-width: 50% !important;
+}
 .resizerhead1 {
   right: 34%
 }
 .resizerhead3 {
-  left: 1rem;
+  left: -9rem;
 }
 .resizerhead2 {
   right: 24%
