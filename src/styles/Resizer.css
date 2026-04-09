@@ -580,6 +580,12 @@ display: none;
     width: 50% !important;
   max-width: 50% !important;
 }
+.resizerhead1 {
+  right: 24%
+}
+.resizerhead3 {
+  right: 29%
+}
 .resizerhead2 {
   right: 24%
 }
@@ -587,6 +593,6 @@ display: none;
   right: 29%
 }
 .resizerhead11 {
-  left: -2rem
+  left: -7rem
 }
 }
