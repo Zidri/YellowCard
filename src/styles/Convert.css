@@ -214,12 +214,15 @@
    grid-template-columns: 1fr;
    padding: 0 1rem; 
    
-
+.conhead2 {
+  right: 24%
+}
 }
 .convertbox {
   position: relative;
   left: -2rem;
   bottom: 3rem;
+ 
 }
 .upload-box1 {
   width: 50% !important;

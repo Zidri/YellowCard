@@ -134,3 +134,53 @@ body {
   width: 100%;
 }
 }
+
+@media (max-width: 430px) {
+  .navbar {
+    position: relative; 
+       width: 100%;        /* full width instead of 60% */
+    max-width: 100%;    /* prevent overflow */
+    min-width: 0;  
+    left: 0; 
+    border-radius: 0; 
+    padding: 1rem; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    bottom: 2rem;
+  }
+
+  /* SHOW BURGER */
+  .hamburger {
+    display: block;
+    color: black;
+    cursor: pointer;
+  }
+
+  /* HIDE MENU INITIALLY */
+  .nav-links {
+    position: absolute;  /* overlay over page, not push content */
+    top: 80%;           /* right below navbar */
+    left: 0;
+    width: 84.5%;
+    max-width: 420px;
+    min-width: 300px; 
+    display: none;
+    flex-direction: column;
+    background-color: white; /* your dropdown background */
+    padding: 1rem;
+    gap: 1rem;
+    z-index: 1000; 
+    border-left: 2px dashed #FFDA61;
+  border-right: 2px dashed #FFDA61;
+  border-bottom: 2px dashed #FFDA61;
+  border-top: none; /* removes top border */    /* on top of other content */
+  }
+
+  /* SHOW WHEN ACTIVE */
+  .nav-links.active {
+    display: flex;
+  }
+  body, html {
+  width: 100%;
+}
+}
