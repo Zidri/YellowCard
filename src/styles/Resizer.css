@@ -577,24 +577,34 @@ display: none;
   max-width: 50% !important;
 }
 .download-box2{
-    width: 50% !important;
-  max-width: 50% !important;
+    width: 75% !important;
+  max-width: 75% !important;
 }
 .slider {
    touch-action: none; 
-   width: 50% !important;
-  max-width: 50% !important;
+   width: 75% !important;
+  max-width: 75% !important;
 }
 .slider1 {
    touch-action: none;
    width: 50% !important;
   max-width: 50% !important;
 }
+.slider-value {
+  position: relative;
+  font-size: 0.9rem;
+  left: -8rem !important;
+}
+.slider-value1 {
+  position: relative;
+  font-size: 0.9rem;
+  left: -8rem !important;
+}
 .resizerhead1 {
   right: 34%
 }
 .resizerhead3 {
-  left: -9rem;
+  left: -14rem;
 }
 .resizerhead2 {
   right: 24%
