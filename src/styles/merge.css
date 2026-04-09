@@ -309,10 +309,10 @@ display: none;
     width: 50% !important;
   max-width: 50% !important;
 }
-.conhead2 {
-  right: 24%
+.mghead2 {
+  right: 19%; 
 }
-.conhead4 {
-  right: 29%
+.mghead4 {
+  right: 24%;
 }
 }
