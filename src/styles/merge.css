@@ -299,3 +299,20 @@ display: none;
   left: -12.5rem
 }
 }
+
+@media (max-width: 430px) {
+  .upload-box {
+  width: 50% !important;
+  max-width: 50% !important;
+}
+.download1-box {
+    width: 50% !important;
+  max-width: 50% !important;
+}
+.conhead2 {
+  right: 24%
+}
+.conhead4 {
+  right: 29%
+}
+}
