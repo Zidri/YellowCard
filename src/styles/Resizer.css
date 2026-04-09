@@ -577,18 +577,18 @@ display: none;
   max-width: 50% !important;
 }
 .download-box2{
-    width: 75% !important;
-  max-width: 75% !important;
+    width: 50% !important;
+  max-width: 50% !important;
 }
 .slider {
    touch-action: none; 
-   width: 75% !important;
-  max-width: 75% !important;
+   width: 60% !important;
+  max-width: 60% !important;
 }
 .slider1 {
    touch-action: none;
-   width: 50% !important;
-  max-width: 50% !important;
+   width: 60% !important;
+  max-width: 60% !important;
 }
 .slider-value {
   position: relative;
@@ -604,7 +604,7 @@ display: none;
   right: 34%
 }
 .resizerhead3 {
-  left: -14rem;
+  left: -12rem;
 }
 .resizerhead2 {
   right: 24%
