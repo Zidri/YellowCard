@@ -572,16 +572,19 @@ display: none;
 
 }
 @media (max-width: 430px) {
- 
+ .upload-box3{
+    width: 50% !important;
+  max-width: 50% !important;
+}
 .download-box2{
     width: 50% !important;
   max-width: 50% !important;
 }
 .resizerhead1 {
-  right: 32%
+  right: 34%
 }
 .resizerhead3 {
-  right: 10% !important;
+  right: 20% !important;
 }
 .resizerhead2 {
   right: 24%
