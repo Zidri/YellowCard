@@ -266,7 +266,19 @@ display: none;
 .conhead3 {
   left: -14.25rem
 }
-
+.download-label {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4E4747;
+  opacity: 0.80;
+   display: inline-block;      /* necessary for ellipsis to work */
+           /* adjust width as needed */
+  white-space: nowrap;        /* prevent wrapping */
+  overflow: hidden;           /* hide overflow */
+  text-overflow: ellipsis;    /* show "..." at the end */
+  vertical-align: middle;    
+}
 }
 @media (max-width: 768px) {
 
@@ -305,7 +317,7 @@ display: none;
    
 }
 .button-container {
-  right: 11rem;
+  right: 12.5rem;
 
 }
 .convertbox1 {

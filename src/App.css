@@ -112,7 +112,7 @@ body {
     top: 80%;           /* right below navbar */
     left: 0;
     width: 100%;
-    max-width: 420px;
+    max-width: 1000px;
     min-width: 300px; 
     display: none;
     flex-direction: column;

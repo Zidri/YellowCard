@@ -285,7 +285,7 @@ display: none;
    
 }
 .button-container1 {
-  right: 11rem;
+  right: 12.5rem !important;
 
 }
 .mergebox1 {
@@ -314,5 +314,9 @@ display: none;
 }
 .mghead4 {
   right: 28%;
+}
+.button-container1 {
+  right: 11rem;
+
 }
 }

@@ -523,7 +523,7 @@ display: none;
    
 }
 .button-container2 {
-  right: 11.5rem;
+  right: 12.9rem !important;
 
 }
 .resizerbox1 {
@@ -614,5 +614,19 @@ display: none;
 }
 .resizerhead11 {
   left: -5.5rem
+}
+.button-container2 {
+  right: 11rem !important;
+
+}
+.download-label {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4E4747;
+  opacity: 0.80;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+   overflow: hidden; 
 }
 }
