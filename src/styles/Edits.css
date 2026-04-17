@@ -223,7 +223,7 @@
    
     text-align: left;
     white-space: nowrap;
-     right: 27.5%;
+     right: 28.75%;
 }
 .edhead9:hover{
 opacity: 0.5;
@@ -296,6 +296,9 @@ display: none;
 .mghead3 {
   left: -12.5rem
 }
+.edhead9 {
+  right: 27.5%;
+}
 .edhead8 {
   display: none;
 }
@@ -327,7 +330,7 @@ display: none;
   right: 4% !important;
 }
 .edhead9 {
-right: 30% !important;
+right: 27.5% !important;
 }
 .edhead10 {
 right: 30% !important;
